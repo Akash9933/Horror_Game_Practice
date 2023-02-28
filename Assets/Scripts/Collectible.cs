@@ -6,6 +6,9 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
     public static event Action OnCollected;
+    public static int total;
+
+    void Awake() => total++;
 
     // Update is called once per frame
     void Update()
