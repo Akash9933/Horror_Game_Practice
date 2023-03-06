@@ -180,14 +180,14 @@ public class AIController : MonoBehaviour
     {
         Collider[] playerInRange = Physics.OverlapSphere(transform.position, viewRadius, playerMask);
 
-        for(int i = 0; i < playerInRange.Length; i++)
+        for (int i = 0; i < playerInRange.Length; i++)
         {
             Transform player = playerInRange[i].transform;
             Vector3 dirToPlayer = (player.position - transform.position).normalized;
-            if(Vector3.Angle(transform.forward, dirToPlayer) < viewAgnel / 2)
+            if (Vector3.Angle(transform.forward, dirToPlayer) < viewAgnel / 2)
             {
                 float dstToPlayer = Vector3.Distance(transform.position, player.position);
-                if(!Physics.Raycast(transform.position, dirToPlayer, dstToPlayer, obstacleMask))
+                if (!Physics.Raycast(transform.position, dirToPlayer, dstToPlayer, obstacleMask))
                 {
                     m_PlayerInRange = true;
                     m_IsPatrol = false;
@@ -197,14 +197,15 @@ public class AIController : MonoBehaviour
                     m_PlayerInRange = false;
                 }
             }
-            if(Vector3.Distance(transform.position, player.position)> viewRadius)
+            if (Vector3.Distance(transform.position, player.position) > viewRadius)
             {
                 m_PlayerInRange = false;
 
             }
-        if(m_PlayerInRange)
-        {
-            m_PlayerPosition = player.transform.position;
+            if (m_PlayerInRange)
+            {
+                m_PlayerPosition = player.transform.position;
+            }
         }
     }
 }
