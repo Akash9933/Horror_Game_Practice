@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 55
+  controlID: 105
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 56
+  controlID: 46
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 45
+  controlID: 47
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,7 +277,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -416,22 +416,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Model/Animation Test
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Model/Animation Test
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity Practice\Anime Horror Game\Horror_Game_Practice
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7e830000
-    m_LastClickedID: 33662
-    m_ExpandedIDs: 00000000a4750000a6750000a8750000aa750000ac750000ae750000b0750000b6750000b880000000ca9a3b
+    m_SelectedIDs: d6540000
+    m_LastClickedID: 21718
+    m_ExpandedIDs: 00000000ac540000ae540000b0540000b2540000b4540000b6540000b854000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,7 +459,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a4750000a6750000a8750000aa750000ac750000ae750000b0750000
+    m_ExpandedIDs: 00000000ac540000ae540000b0540000b2540000b4540000b6540000b8540000ba540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -589,9 +589,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 62120000
       m_LastClickedID: 0
-      m_ExpandedIDs: 12d9ffff24740000987400003c750000
+      m_ExpandedIDs: 2cfbffff84520000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -896,9 +896,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -17.69554, y: 1.072656, z: 11.630944}
+    m_Target: {x: -48.60867, y: -25.303606, z: -34.13495}
     speed: 2
-    m_Value: {x: -17.69554, y: 1.072656, z: 11.630944}
+    m_Value: {x: -48.60867, y: -25.303606, z: -34.13495}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -944,13 +944,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.040989004, y: 0.24679735, z: -0.010439299, w: -0.9681602}
+    m_Target: {x: 0.1643925, y: -0.6949096, z: 0.16806522, w: 0.6796335}
     speed: 2
-    m_Value: {x: -0.041003957, y: 0.24534088, z: -0.010377637, w: -0.9685138}
+    m_Value: {x: 0.1643866, y: -0.69488466, z: 0.16805919, w: 0.6796091}
   m_Size:
-    m_Target: 2.2660604
+    m_Target: 49.38992
     speed: 2
-    m_Value: 2.2660604
+    m_Value: 49.38992
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1042,7 +1042,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
